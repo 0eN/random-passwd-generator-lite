@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
 </head>
 <body>
-    <div>
-        <h1>About US</h1>
-        <h2>Devloper: Neo Wake</h2>
-        <h2>Gitub: github.com/NeoWake</h2>
-        <h2>Youtube: youtube.com/NeoWake</h2>
-        <h2>Facebook: facebook.com/NeoWake</h2>
-
-
+    <div class="container text-center">
+        <h1 class="alert alert-success">About US</h1>
+        <a href="{% url 'home' %}" class="btn btn-warning">Home</a>
+        <a href="{% url 'about' %}" class="btn btn-warning">About</a> <br>
+        <br>
+        <h2>Devloper: </h2>Neo Wake <br>
+        <h2>E-Mail: </h2> annonymo007@gmail.com <br>
+        <h2>Gitub: </h2> <a href="https://github.com/0eN/" target="_blank">github.com/0eN</a> <br>
+        <h2>Facebook: </h2> <a href="https://www.facebook.com/Ne0.Wake" target="_blank">fb.com/Ne0.wake</a> <br>
     </div>
 </body>
 </html>
